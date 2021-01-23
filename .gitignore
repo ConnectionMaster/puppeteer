@@ -3,6 +3,7 @@
 /test/output-firefox
 /test/test-user-data-dir*
 /.local-chromium/
+/.local-firefox/
 /.dev_profile*
 .DS_Store
 *.swp
@@ -11,6 +12,9 @@
 package-lock.json
 yarn.lock
 /node6
-/lib/protocol.d.ts
 /utils/browser/puppeteer-web.js
-/index.d.ts
+/lib
+test/coverage.json
+temp/
+dependency-chart.png
+puppeteer-core-*.tgz
